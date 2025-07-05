@@ -131,8 +131,8 @@ def job():
         plt.legend()
         plt.show()
 
-        API_KEY = 'PKB1UY8JYZJS5EMLR2JS'
-        SECRET_KEY = '07dMk3HRAQjtv2ntWiKE50J1hzKTAos0Ce7FaLFQ'
+        API_KEY = 'KEY' # Filler Keys
+        SECRET_KEY = 'KEY'
         BASE_URL = 'https://paper-api.alpaca.markets'
 
         api = tradeapi.REST(API_KEY, SECRET_KEY, BASE_URL, api_version='v2')
